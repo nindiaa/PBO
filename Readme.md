@@ -1,25 +1,23 @@
-# [Smart Kantin]
+# Aplikasi Kasir (Point of Sales) Smart Kantin
 
-Ini adalah aplikasi desktop berbasis Java yang dibuat menggunakan NetBeans IDE.
+Aplikasi desktop berbasis Java Swing untuk membantu manajemen transaksi, stok, dan laporan penjualan pada kantin.
 
-## Fitur Utama
-- [Fitur 1, misal: Input data barang]
-- [Fitur 2, misal: Edit dan Hapus data]
-- [Fitur 3, misal: Cetak laporan ke PDF]
+## ✨ Fitur Utama
+- **Manajemen Stok Barang**: Pengelolaan data barang disertai notifikasi jika stok mencapai batas minimum.
+- **Keranjang Belanja**: Memasukkan beberapa item ke dalam daftar belanja sebelum diproses.
+- **Transaksi Pembayaran**: Perhitungan otomatis untuk total harga, diskon, dan uang kembalian.
+- **Riwayat Penjualan**: Pencatatan data transaksi harian yang dilengkapi dengan grafik penjualan.
+- **Cetak Struk**: Fitur mencetak bukti pembayaran (struk belanja).
+- **Barcode Scanner**: Input barang menggunakan webcam/kamera untuk membaca barcode.
 
-## Teknologi yang Digunakan
-- Java JDK (Versi kamu)
-- NetBeans IDE
-- MySQL (sebagai database)
-- MySQL Connector Java (Library)
+## 🚀 Teknologi & Library
+- **IDE**: NetBeans
+- **Database**: MySQL (Laragon)
+- **Tema UI**: FlatLaf (Modern Look and Feel)
+- **Laporan & Struk**: JasperReports & iText
+- **Grafik**: JFreeChart & JCommon
+- **Scan Barcode**: Webcam Capture API & ZXing (Core & JavaSE)
+- **Database Driver**: MySQL Connector J
 
-## Cara Menjalankan Project
-1. Clone atau download repository ini.
-2. Import database `.sql` yang ada di folder ini ke phpMyAdmin kamu.
-3. Buka NetBeans IDE.
-4. Pilih **File** > **Open Project** > Cari folder project ini.
-5. Klik kanan pada project, pilih **Run**.
-
-## Kontak
-- Nama: [Nama Kamu]
-- Email: [Email Kamu]
+---
+Dibuat oleh [Quina Nindia Jelita Putri]
