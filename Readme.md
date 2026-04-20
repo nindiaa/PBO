@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  [Nama Project Kamu / Misal: SeraStore]
+  [Smart Kantin]
   <br>
 </h1>
 
